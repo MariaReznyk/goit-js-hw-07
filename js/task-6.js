@@ -30,6 +30,7 @@ function createBoxes(number) {
 }
 
 function destroyBoxes() { 
+  inputField.value = '';
   divBoxes.innerHTML = '';
 }
 

@@ -112,3 +112,177 @@ ul {
 #name-input:hover {
   border-color: #000000;
 }
+
+/* task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 408px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  display: block;
+  border-style: solid;
+  border-color: #808080;
+  border-radius: 4px;
+  border-width: 1px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input:hover {
+  border-color: #000000;
+}
+
+.login-form button {
+  display: block;
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.login-form button:hover {
+  background-color: #6c8cff;
+}
+
+/* task-5 */
+
+.widget {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  display: block;
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
+
+/* task-6 */
+
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  height: 104px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+#controls input {
+  border-style: solid; 
+  border-width: 1px;
+  border-color: #808080;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin-right: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+button[data-create] {
+  border-radius: 8px;
+  border-style: none;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-right: 16px;
+}
+
+button[data-create]:hover {
+  background-color: #6c8cff;;
+}
+
+button[data-destroy] {
+  border-radius: 8px;
+  border-style: none;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #ff4e4e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button[data-destroy]:hover {
+  background-color: #ff7070;;
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+
